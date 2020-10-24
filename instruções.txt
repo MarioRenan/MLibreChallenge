@@ -1,0 +1,5 @@
+1. Instalar Python 3.7 ou superior
+2. Instalar as dependências do arquivo requirements.txt utilizando o comando 'pip install -r requirements.txt' no CMD, PowerShell ou Terminal.
+3. Armazenar a pasta com os arquivos no C: ou alterar o caminho dos arquivos no código.
+4. Executar o script 'python3 1-generate-new-db.py' para gerar os dados no arquivo Excel chamado 'db.xls' dentro da pasta 'files' no mesmo diretório.
+5. Executar o script '2-sendmail.py' que analisará os itens de classificação alta e enviará para o gerente do owner responsável.

@@ -1,0 +1,13 @@
+A aplicação foi desenvolvida para ler ambos os arquivos disponibilizados e centraliza-los formatados em uma única base, realizada tratativa de erros e criadas condições para identificar o manager de cada owner.
+
+O e-mail utilizado para envio foi criado e é necessário que outros e-mails tenham opções desabilitadas para utilização, apenas clicando no link abaixo.
+
+1. https://www.google.com/settings/security/lesssecureapps
+2. https://accounts.google.com/DisplayUnlockCaptcha
+
+Referência:
+
+1. https://stackoverflow.com/questions/10147455/how-to-send-an-email-with-gmail-as-provider-using-python/27515833#27515833
+
+As credenciais foram armazenadas em arquivos de configuração, também podem entrar como variáveis de ambiente e criptografadas para melhor segurança. De início evitamos harded-coded.
+
